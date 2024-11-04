@@ -1,9 +1,42 @@
 $light_shades: #dedede;
-$black_shades: #191919;
+$light_accent: #879a95;
+$main_color: #cb562f;
+$dark_accent: #b74f50;
+$dark_shades: #191919;
 
 body {
-    margin: 25px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
     background-color: $light_shades;
-    color: $black_shades;
-    font-family: sans-serif;
+    color: $dark_shades;
+
+    .left {
+        background-color: $light_accent;
+        width: 10%;
+    }
+    .main {
+        margin: 0 50px;
+        background-color: $light_shades;
+        width: 80%;
+    }
+    .right {
+        background-color: $light_accent;
+        width: 10%;
+    }
+}
+
+h1, h2, h3 {
+    color: $main_color;
+    text-align: center;
+    font-family: "Hina Mincho", sans-serif;
+}
+
+p {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+a {
+    font-family: "Zen Kaku Gothic New", sans-serif;
 }

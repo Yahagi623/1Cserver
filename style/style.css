@@ -1,6 +1,35 @@
 body {
-  margin: 25px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
   background-color: #dedede;
   color: #191919;
-  font-family: sans-serif;
+}
+body .left {
+  background-color: #879a95;
+  width: 10%;
+}
+body .main {
+  margin: 0 50px;
+  background-color: #dedede;
+  width: 80%;
+}
+body .right {
+  background-color: #879a95;
+  width: 10%;
+}
+
+h1, h2, h3 {
+  color: #cb562f;
+  text-align: center;
+  font-family: "Hina Mincho", sans-serif;
+}
+
+p {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+a {
+  font-family: "Zen Kaku Gothic New", sans-serif;
 }/*# sourceMappingURL=style.css.map */
