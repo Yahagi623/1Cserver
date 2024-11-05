@@ -11,7 +11,7 @@ body .left {
   width: 10%;
 }
 body .main {
-  margin: 0 50px;
+  margin: 0 25px;
   background-color: #dedede;
   width: 80%;
 }
@@ -31,5 +31,27 @@ p {
 }
 
 a {
+  color: #b74f50;
   font-family: "Zen Kaku Gothic New", sans-serif;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.member_name {
+  font-size: medium;
+  color: #b74f50;
+}
+
+.member_description {
+  font-size: small;
 }/*# sourceMappingURL=style.css.map */
