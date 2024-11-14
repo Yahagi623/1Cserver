@@ -1,23 +1,28 @@
+header {
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #b74f50;
+  color: #dedede;
+  font-size: 25px;
+  font-family: "Hina Mincho", sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   display: flex;
-  height: 100%;
+  background-color: #879a95;
+}
+
+article {
+  margin: 50px 25px 0 25px;
+  padding: 10px;
   background-color: #dedede;
   color: #191919;
-}
-body .left {
-  background-color: #879a95;
-  width: 10%;
-}
-body .main {
-  margin: 0 25px;
-  background-color: #dedede;
-  width: 80%;
-}
-body .right {
-  background-color: #879a95;
-  width: 10%;
 }
 
 h1, h2, h3 {
